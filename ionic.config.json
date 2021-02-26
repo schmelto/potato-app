@@ -1,0 +1,7 @@
+{
+  "name": "potato-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
