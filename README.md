@@ -1,3 +1,3 @@
 # Potato-Salad-App
 
-![wireframe](./assets/wireframe.JPG)
+![wireframe](./assets/wireframe.jpg)
