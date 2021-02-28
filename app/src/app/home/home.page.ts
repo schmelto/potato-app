@@ -3,6 +3,8 @@ import { Component } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { RecipePage } from '../modal/recipe.page';
 
+import { Router, NavigationExtras } from '@angular/router';
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -10,19 +12,20 @@ import { RecipePage } from '../modal/recipe.page';
 })
 export class HomePage {
 
-  potatos: number;
+  potatos;
 
-  constructor(public modalController: ModalController) {
-
+  constructor(public modalController: ModalController, private router: Router) {
   }
-
   async presentModal() {
-    console.log(this.potatos);
+    if (this.potatos >= 0) {
     const modal = await this.modalController.create({
       component: RecipePage,
-      cssClass: 'my-custom-class'
+      componentProps: { 
+        potatos: this.potatos, // pass this value to modal
+      }
     });
     return await modal.present();
+  }
   }
 
 }

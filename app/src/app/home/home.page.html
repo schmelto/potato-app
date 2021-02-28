@@ -14,10 +14,15 @@
   </ion-header>
 
   <div id="container">
+
+    
     
     <ion-item> 
-      <ion-label position="floating">Potatos:</ion-label>
-      <ion-input (keyup.enter)="presentModal()" [(ngModel)]="potatos" autocorrect="on" autofocus="on" color="primary" mode="ios" type="number" required="true"></ion-input>
+      <ion-label position="floating">Potatos in gram</ion-label>
+      <ion-input (keyup.enter)="presentModal()" [(ngModel)]="potatos" clearInput="true" autocorrect="on" autofocus="on" color="primary" mode="ios" type="number" required="true"></ion-input>
     </ion-item>
+
+    <ion-button (click)="presentModal()" shape="round" id="calculate">Calculate</ion-button>
   </div>
+
 </ion-content>
