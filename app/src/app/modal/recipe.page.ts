@@ -7,7 +7,7 @@ import { ModalController } from '@ionic/angular';
   styleUrls: ['./recipe.page.scss'],
 })
 export class RecipePage implements OnInit {
-  potatos; // get this value from modal props
+  potatoes; // get this value from modal props
 
   salt;
   suggar;
@@ -22,15 +22,15 @@ export class RecipePage implements OnInit {
 
   ngOnInit() {
 
-    // calculate recipe based on potatos
-    this.salt = this.potatos * 0.014;
-    this.suggar = this.potatos * 0.007;
-    this.pepper = this.potatos * 0.00025;
-    this.mustard = this.potatos * 0.015;
-    this.vinegar = this.potatos * 0.05;
-    this.onion = this.potatos * 0.1;
-    this.oil = this.potatos * 0.05;
-    this.broth = this.potatos * 0.25;
+    // calculate recipe based on potatoes
+    this.salt = this.potatoes * 0.014;
+    this.suggar = this.potatoes * 0.007;
+    this.pepper = this.potatoes * 0.00025;
+    this.mustard = this.potatoes * 0.015;
+    this.vinegar = this.potatoes * 0.05;
+    this.onion = this.potatoes * 0.1;
+    this.oil = this.potatoes * 0.05;
+    this.broth = this.potatoes * 0.25;
   }
 
   closeModal() {

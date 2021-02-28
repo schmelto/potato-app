@@ -12,16 +12,16 @@ import { Router, NavigationExtras } from '@angular/router';
 })
 export class HomePage {
 
-  potatos;
+  potatoes;
 
   constructor(public modalController: ModalController, private router: Router) {
   }
   async presentModal() {
-    if (this.potatos >= 0) {
+    if (this.potatoes >= 0) {
     const modal = await this.modalController.create({
       component: RecipePage,
       componentProps: { 
-        potatos: this.potatos, // pass this value to modal
+        potatoes: this.potatoes, // pass this value to modal
       }
     });
     return await modal.present();
