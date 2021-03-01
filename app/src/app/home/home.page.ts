@@ -15,7 +15,7 @@ export class HomePage {
   constructor(public modalController: ModalController, private router: Router) { }
 
   async presentModal() {
-    if (this.potatoes >= 0) {
+    if (this.potatoes > 0 && this.potatoes != null) {
       const modal = await this.modalController.create({
         component: RecipePage,
         componentProps: { 
