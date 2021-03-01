@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-
 import { ModalController } from '@ionic/angular';
-import { RecipePage } from '../modal/recipe.page';
-
 import { Router, NavigationExtras } from '@angular/router';
+import { RecipePage } from '../modal/recipe.page';
 
 @Component({
   selector: 'app-home',
@@ -14,18 +12,17 @@ export class HomePage {
 
   potatoes;
 
-  constructor(public modalController: ModalController, private router: Router) {
-  }
+  constructor(public modalController: ModalController, private router: Router) { }
+
   async presentModal() {
     if (this.potatoes >= 0) {
-    const modal = await this.modalController.create({
-      component: RecipePage,
-      componentProps: { 
-        potatoes: this.potatoes, // pass this value to modal
-      }
-    });
-    return await modal.present();
+      const modal = await this.modalController.create({
+        component: RecipePage,
+        componentProps: { 
+          potatoes: this.potatoes, // pass this value to modal
+        }
+      });
+      return await modal.present();
+    }
   }
-  }
-
 }
