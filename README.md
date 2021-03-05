@@ -10,8 +10,5 @@ This App provides a recepie for potato-salad calculated on the amount of potatos
 
 
 
-## Wireframe
-![wireframe](./assets/wireframe.jpg)
-
-
-
+## Icon
+![icon](./assets/icon.jpg)
