@@ -10,7 +10,7 @@ export class RecipePage implements OnInit {
   potatoes; // get this value from modal props
 
   salt;
-  suggar;
+  sugar;
   pepper;
   mustard;
   vinegar;
@@ -24,7 +24,7 @@ export class RecipePage implements OnInit {
 
     // calculate recipe based on potatoes
     this.salt = this.potatoes * 0.014;
-    this.suggar = this.potatoes * 0.007;
+    this.sugar = this.potatoes * 0.007;
     this.pepper = this.potatoes * 0.00025;
     this.mustard = this.potatoes * 0.015;
     this.vinegar = this.potatoes * 0.05;
