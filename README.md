@@ -27,8 +27,6 @@ To install Ionic run:
 npm install -g @ionic/cli
 ```
 
-Create your account at https://newsapi.org/ and change the `api-key` in [environments](./app/src/environments/)
-
 To start the app go into te `app`-folder and run:
 ```
 ionic serve
