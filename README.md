@@ -1,5 +1,7 @@
 # Potato-Salad-App
 
+![icon](./assets/icon_small.png)
+
 ## Function
 
 This App provides a recepie for potato-salad calculated on the amount of potatos in grams.
