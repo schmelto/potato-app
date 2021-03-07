@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Potato-Salad",
+        "potatos-in-gram": "Potatoes in gram",
+        "calculate": "Calculate"
+    },
+    "recipe": {
+        "recipe": "Recipe",
+        "potatoes": "Potatoes",
+        "salt": "Salt",
+        "sugar": "Sugar",
+        "pepper": "Pepper",
+        "mustard": "Mustard",
+        "vinegar": "Vinegar",
+        "onions": "Onions",
+        "oil": "Oil",
+        "broth": "Broth"
+    }
+}

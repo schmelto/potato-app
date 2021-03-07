@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Kartoffelsalat",
+        "potatos-in-gram": "Kartoffeln in Gramm",
+        "calculate": "Berechnen"
+    },
+    "recipe": {
+        "recipe": "Rezept",
+        "potatoes": "Kartoffeln",
+        "salt": "Salz",
+        "sugar": "Zucker",
+        "pepper": "Pfeffer",
+        "mustard": "Knoblauch",
+        "vinegar": "Essig",
+        "onions": "Zwiebeln",
+        "oil": "Öl",
+        "broth": "Fleisch-/Gemüsebrühe"
+    }
+}

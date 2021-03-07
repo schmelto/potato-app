@@ -9,10 +9,11 @@ import { RecipePage } from '../modal/recipe.page';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  
   potatoes;
 
-  constructor(public modalController: ModalController, private router: Router) { }
+  constructor(public modalController: ModalController, private router: Router) {
+   }
 
   async presentModal() {
     if (this.potatoes > 0 && this.potatoes != null) {
@@ -25,4 +26,5 @@ export class HomePage {
       return await modal.present();
     }
   }
+
 }
