@@ -14,7 +14,9 @@
         "vinegar": "Essig",
         "onions": "Zwiebeln",
         "oil": "Öl",
-        "broth": "Fleisch-/Gemüsebrühe"
+        "broth": "Brühe",
+        "preparation": "Zubereitung",
+        "text": "Kartoffel heiß schälen und in Scheiben schneiden. Salz, Zucker, Pfeffer, Senf und Essig auf die Kartoffeln wiegen. Die Zwiebeln im Öl weichdünsten, Brühe zugeben und das Ganze aufkochen lassen. Die Kartoffeln hinzugeben und vorsichtig vermengen."
     },
     "navigation": {
         "navigate": "Menü",
