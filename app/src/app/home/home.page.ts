@@ -12,8 +12,7 @@ export class HomePage {
   
   potatoes;
 
-  constructor(public modalController: ModalController, private router: Router) {
-   }
+  constructor(public modalController: ModalController, private router: Router) { }
 
   async presentModal() {
     if (this.potatoes > 0 && this.potatoes != null) {
