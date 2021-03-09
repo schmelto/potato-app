@@ -15,5 +15,11 @@
         "onions": "Onions",
         "oil": "Oil",
         "broth": "Broth"
+    },
+    "navigation": {
+        "navigate": "Menu",
+        "language": "Language",
+        "German": "German",
+        "English": "English"
     }
 }

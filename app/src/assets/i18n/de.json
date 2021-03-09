@@ -15,5 +15,11 @@
         "onions": "Zwiebeln",
         "oil": "Öl",
         "broth": "Fleisch-/Gemüsebrühe"
+    },
+    "navigation": {
+        "navigate": "Menü",
+        "language": "Sprache",
+        "german": "Deutsch",
+        "english": "English"
     }
 }

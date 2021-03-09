@@ -1,5 +1,8 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      </ion-buttons>
     <ion-title>
       {{ 'home.title' | translate }}
     </ion-title>
@@ -24,8 +27,5 @@
 
     <ion-button (click)="presentModal()" shape="round" id="calculate">{{ 'home.calculate' | translate }}</ion-button>
   </div>
-
-  <button (click)="useLanguage('en')">en</button>
-  <button (click)="useLanguage('de')">de</button>
   
 </ion-content>
