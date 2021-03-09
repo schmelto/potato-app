@@ -8,12 +8,15 @@ import { RecipePageRoutingModule } from './recipe-routing.module';
 
 import { RecipePage } from './recipe.page';
 
+import { TranslateModule } from '@ngx-translate/core';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RecipePageRoutingModule
+    RecipePageRoutingModule,
+    TranslateModule.forChild()
   ],
   declarations: [RecipePage]
 })

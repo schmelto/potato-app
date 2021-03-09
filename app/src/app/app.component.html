@@ -1,3 +1,22 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu side="start" menuId="first" contentId="content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>{{ 'navigation.navigate' | translate }}</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        
+        <ion-item>
+            <ion-label>{{ 'navigation.language' | translate }}</ion-label>
+            <ion-select [value]="selectedLanguage" interface="popover"
+              (ionChange)="changeLanguage($event)">
+              <ion-select-option [value]="language.value" *ngFor="let language of languages">{{ language.name }}
+              </ion-select-option>
+            </ion-select>
+          </ion-item>
+
+      </ion-content>
+    </ion-menu>
+<ion-router-outlet id="content"></ion-router-outlet>
 </ion-app>

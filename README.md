@@ -1,14 +1,39 @@
 # Potato-Salad-App
 
+![icon](./assets/icon_small.png)
+
 ## Function
 
 This App provides a recepie for potato-salad calculated on the amount of potatos in grams.
 
-## Screenshots
+To run the app install the APK on your andorid phone.
 
-![see here](https://user-images.githubusercontent.com/30869493/109681420-bd2e7900-7b7d-11eb-8d83-127f8337c510.mp4)
+Further you can run the project local on your machine.
 
+### Prerequisite
 
+* [Node.js](https://nodejs.org/en/)
+* [Ionic](https://ionicframework.com/)
 
-## Icon
-![icon](./assets/icon.jpg)
+### Installation
+
+Clone the repository to your local machine and run following commands:
+```
+npm install
+```
+
+To install Ionic run:
+```
+npm install -g @ionic/cli
+```
+
+To start the app go into te `app`-folder and run:
+```
+ionic serve
+```
+
+This should open the website in your default browser with the URL http://localhost:8100/
+
+## Demo
+
+![demo](./assets/demo.gif)

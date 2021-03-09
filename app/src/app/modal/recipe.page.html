@@ -5,7 +5,7 @@
           <ion-icon name="arrow-back"></ion-icon>
       </ion-button>
   </ion-buttons>
-    <ion-title>Recipe</ion-title>
+    <ion-title>{{ 'recipe.recipe' | translate }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -18,7 +18,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Potatoes:</b>
+                <b>{{ 'recipe.potatoes' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -36,7 +36,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Salt:</b>
+                <b>{{ 'recipe.salt' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -54,7 +54,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Sugar:</b>
+                <b>{{ 'recipe.sugar' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -72,7 +72,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Pepper:</b>
+                <b>{{ 'recipe.pepper' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -90,7 +90,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Mustard:</b>
+                <b>{{ 'recipe.mustard' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -108,7 +108,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Vinegar:</b>
+                <b>{{ 'recipe.vinegar' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -126,7 +126,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Onions:</b>
+                <b>{{ 'recipe.onions' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -144,7 +144,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Oil:</b>
+                <b>{{ 'recipe.oil' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -162,7 +162,7 @@
           <ion-row>
             <ion-col>
               <div>
-                <b>Broth:</b>
+                <b>{{ 'recipe.broth' | translate }}:</b>
               </div>
             </ion-col>
             <ion-col>
@@ -175,5 +175,18 @@
       </ion-label>
     </ion-item>
   </ion-list>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ 'recipe.preparation' | translate }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      {{ 'recipe.text' | translate }}
+    </ion-card-content>
+
+  </ion-card>
+
+  
 
 </ion-content>

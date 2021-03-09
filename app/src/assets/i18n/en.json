@@ -1,0 +1,27 @@
+{
+    "home": {
+        "title": "Potato-Salad",
+        "potatos-in-gram": "Potatoes in gram",
+        "calculate": "Calculate"
+    },
+    "recipe": {
+        "recipe": "Recipe",
+        "potatoes": "Potatoes",
+        "salt": "Salt",
+        "sugar": "Sugar",
+        "pepper": "Pepper",
+        "mustard": "Mustard",
+        "vinegar": "Vinegar",
+        "onions": "Onions",
+        "oil": "Oil",
+        "broth": "Broth",
+        "preparation": "Preparation",
+        "text": "Peel the potato while hot and cut into slices. Weigh the salt, sugar, pepper, mustard and vinegar onto the potatoes. Saute the onions in the oil, add the broth and bring it to broil. Add the potatoes and mix gently."
+    },
+    "navigation": {
+        "navigate": "Menu",
+        "language": "Language",
+        "German": "German",
+        "English": "English"
+    }
+}

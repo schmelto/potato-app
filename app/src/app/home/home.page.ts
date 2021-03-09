@@ -9,7 +9,7 @@ import { RecipePage } from '../modal/recipe.page';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  
   potatoes;
 
   constructor(public modalController: ModalController, private router: Router) { }
@@ -25,4 +25,5 @@ export class HomePage {
       return await modal.present();
     }
   }
+
 }
