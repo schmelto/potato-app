@@ -20,8 +20,6 @@
     },
     "navigation": {
         "navigate": "Menu",
-        "language": "Language",
-        "German": "German",
-        "English": "English"
+        "language": "Language"
     }
 }

@@ -7,6 +7,7 @@ import { ModalController } from '@ionic/angular';
   styleUrls: ['./recipe.page.scss'],
 })
 export class RecipePage implements OnInit {
+  
   potatoes; // get this value from modal props
 
   salt;
